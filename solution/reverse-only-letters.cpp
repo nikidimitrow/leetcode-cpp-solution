@@ -6,9 +6,13 @@ using std::string;
 using std::swap;
 
 class Solution {
+private:
+    int i = 0;
+    int j = 0;
+
 public:
     std::string reverseOnlyLetters(string S) {
-        int i = 0, j = S.length() - 1;
+       j = S.length() - 1;
         
         while (i < j) {
             if (isalpha(S[i]) && isalpha(S[j])) {
