@@ -5,16 +5,18 @@ class Solution
 public:
     int findSpecialInteger(std::vector<int>& arr) 
     {
-        int max = arr.size() / 4; //get the 25% of the array
-        
+        int max = arr.size() / 4; //get the 25% of the array  
         int i = 0;
         
-        while(i < arr.size()) {
+        while(i < arr.size()) 
+        {
             int num = arr[i];
-            if(i + max < arr.size() && arr[i + max] == num) {
+            if(i + max < arr.size() && arr[i + max] == num) 
+            {
                 return num;
             }
-            while(arr[i] == num){
+            while(arr[i] == num)
+            {
                 i++;
             }
         }
