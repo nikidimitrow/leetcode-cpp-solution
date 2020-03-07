@@ -1,4 +1,4 @@
-/* Link to the problem: https://leetcode.com/problems/palindrome-number/ /*
+/* Link to the problem: https://leetcode.com/problems/palindrome-number/ */
 
 class Solution 
 {
