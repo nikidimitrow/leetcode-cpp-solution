@@ -15,7 +15,7 @@ public:
       {    
         px=px*10+x%10;
         x=x/10;
-       } 
+      } 
         
     return px == b ? true : false;        
     }
