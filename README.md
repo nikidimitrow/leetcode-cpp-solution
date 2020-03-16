@@ -3,4 +3,4 @@ nikidimitrow/leetcode.com
 
 C++ practice from LeetCode
 
-Profile link: https://leetcode.com/nikidimitrow/
+Profile link: https://leetcode.com/nikidimitrow
