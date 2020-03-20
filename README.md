@@ -1,5 +1,4 @@
 # leetcode-cpp-solution
-nikidimitrow/leetcode.com
 
 C++ practice from LeetCode
 
